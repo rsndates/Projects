@@ -1,5 +1,4 @@
 Robert Dates
-CSC 520 
 Assignment 1
 
 ***NOTE***
