@@ -1,0 +1,27 @@
+PLEASE READ ENTIRELY
+
+This file serves as the ReadMe for the Social Analytics using Graph Databases.
+
+I have decided to use Python as my programming language and also neo4j as a graph database.
+
+
+In order to run these python scripts you have to have the project directory with the facebook dataset folder at the
+same level as the scripts.  There is dependency on this directory format in order to successfully obtain the correct
+results.
+
+I have seperated the four requirements into the perspective file names:
+
+Number of nodes - NumberOfNodes.py
+Number of edges - NumberOfEdges.py
+Clustering coef - ClusteringCoefficient.py
+Betweeness Cent - BetweenessCentrality.py
+
+Once you enter the file name after the python command you will be prompted for a social circle id which correlates
+to the id within the facebook datasets. The options are as follows:
+options 0, 107, 348, 414, 686, 1684, 1912, 3437, 3980:
+I recommend using 3980 because the others take quite awhile due to the amount of data.
+
+You will also be asked to provide your neo4j username and password for your neo4j server that you must download on your
+local machine.
+
+To download neo4j follow this link. https://neo4j.com/download/
